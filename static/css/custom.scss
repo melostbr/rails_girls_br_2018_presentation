@@ -1,0 +1,56 @@
+/* Colors */
+$rails-girls: #F15931;
+$white: #fff;
+$black: #000;
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.inicio {
+
+  .logo{
+    &::before{
+      content: '';
+      width: 240px;
+      background: center/contain no-repeat url('../images/railsgirls-logo.png');
+      height: 100px;
+      display: block;
+      margin: 0 auto;
+    }
+    &::after {
+      content: '';
+      width: 100%;
+      background: center/contain no-repeat url('../images/girl-saopaulo.png');
+      display: block;
+      height: 300px;
+    }
+  }
+}
+
+.slide {
+  background-color: $rails-girls;
+  color: $white;
+
+  .features {
+    color: $black;
+  }
+
+  pre {
+    color: $black;
+  }
+}
+
+.slide-image {
+  display: block;
+  background-color: #20242A;
+
+  img {
+    object-fit: contain !important;
+  }
+}
+
+.show-me {
+  background: $rails-girls center/70% no-repeat url('../images/hackergirl.gif') ;
+}

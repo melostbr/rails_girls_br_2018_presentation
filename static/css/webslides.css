@@ -3400,17 +3400,17 @@ flexblock.steps
 
 .steps li:hover,
 .steps.blink li:hover > a {
-  background-color: #b8cef7; }
+  background-color: #6B0AA5; }
 
 @media (min-width: 1024px) {
   .process.step-2 {
-    border-left-color: #e8eef7; }
+    border-left-color: #D0A0ED; }
   .process.step-3 {
-    border-left-color: #dde5f3; }
+    border-left-color: #B36FDC; }
   .process.step-4 {
-    border-left-color: #cdd8ec; }
+    border-left-color: #842CB8; }
   .steps li:hover + li [class*='step-'] {
-    border-left-color: #b8cef7; } }
+    border-left-color: inherit;; } }
 
 /*=========================================================
 Items: You can use for settings, drag&drop, close/delete...
